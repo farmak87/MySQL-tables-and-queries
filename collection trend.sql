@@ -1,5 +1,7 @@
-call pytasql.dates4join;
+call pytasql.dates4join;  --when/if used in Tableau, this part of code to be used in the "Initial SQL". 
 
+
+-- the script returns a table which shows distributed and collected pseudo-money. 
 SELECT d4j.PDate as pDate,
 	   d4j.CDate as cDate,
 	   CASE 
